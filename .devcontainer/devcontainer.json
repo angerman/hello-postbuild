@@ -1,0 +1,19 @@
+{
+   "image":"ghcr.io/yvan-sraka/iog-devx:latest",
+   "hostRequirements": {
+      "cpus": 8,
+      "memory": "16gb",
+      "storage": "64gb"
+   },
+   "customizations":{
+      "vscode":{
+         "extensions":[
+            "haskell.haskell",
+            "Rubymaniac.vscode-direnv"
+         ],
+         "settings":{
+            "haskell.manageHLS":"PATH"
+         }
+      }
+   }
+}
